@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efefd8;
+
+}
+
+.header {
+    width: 1550px;
+    height: 53px;
+    background-color: #CBCDA9;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    list-style: none;
+}
+
+.item {
+    height: 22px;
+    padding: 10px;
+}
+
+.item a {
+    text-decoration: none; 
+    color: #000;
+}
+
+
+/*Contact page part */
+
+.main-container {
+    width: 1550px;
+    height: 100vh;
+
+}
+
+.text {
+    text-align: center;
+}
+
+.content {
+    width: 50%; 
+    float: left;
+    padding-top: 20px;
+}
+
+.form-text {
+    color: white;
+}
+
+form {
+    padding-left: 520px;
+    color: white;
+}
+.data {
+    background-color: black;
+}
+
+.btn {
+    padding: 5px;
+    color: black;
+    background-color: yellow;
+}
+
+.map-img {
+    width: 200px;
+    height: 206px;
+    padding-top: 19px;
+}
+
+/*About Us page part */
+.banner-container {
+    height: 530px;
+    background-image: url("./image/postive-caring-relationships-teachers\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.banner-text {
+    font-family: Source Serif Pro;
+    font-size: 96px;
+}
+
+.description {
+    font-family: lato;
+    font-size: 24px;
+}
+
+button {
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    font-size: 10px;
+    border-radius: 5px;
+    
+}
+
+
+.about-heading {
+    text-align: center;
+    font-family: Source Serif Pro;
+    background-color: #efefd8;
+    padding-top: 25px;;
+}
+
+.about-first_content {
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+    
+}
+
+
+
+.first_part {
+    text-align: center;
+
+}
+.first_img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    
+}
+
+
+.about-second-content {
+    width: 50%;
+    float: right;
+    padding-top: 20px;
+}
+
+.second_part {
+    text-align: center;
+}
+
+.second_img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    
+}
+
+.about-third_content {
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.third_part {
+    text-align: center;
+
+}
+.third_img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        width: 100%; 
+    }
+
+    .menu-container {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .item {
+        width: 100%; 
+        text-align: left; 
+        padding: 10px 0; 
+    }
+}
